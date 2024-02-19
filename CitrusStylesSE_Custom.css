@@ -1,0 +1,440 @@
+/* =========== common styles =========== */
+@media screen and (min-width: 768px) {
+  .d-hide {
+    display: none;
+  }
+  .m-hide{
+    display: block;
+  }
+}
+@media (min-width: 48em){
+  .citrusStylesSE-grid__cell--width-34\@medium {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 34%;
+            flex: 0 0 34%;
+    max-width: 34%;
+  } 
+  .citrusStylesSE-grid__cell--width-41\@medium {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 41%;
+            flex: 0 0 41%;
+    max-width: 41%;
+  }
+}
+.citrusStylesSE__BG--navy{
+  background-color: var(--citrusStylesSE-primary-navy);
+}
+.citrusStylesSE-grid--end{
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.citrusStylesSE-grid--start{
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.citrusStylesSE-grid__cell--gap-15{
+  -webkit-column-gap: 15px;
+      -moz-column-gap: 15px;
+          column-gap: 15px;
+}
+/* text styles */
+.citrusStylesSE__text--heading{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PetcoCircular-Bold';
+  color: var(--citrusStylesSE-color-00);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+}
+.citrusStylesSE__hero--title{
+  margin: 0px;
+  padding: 0px;    
+  font-family: 'PetcoCircular-Bold';
+  font-size: 45px;
+  line-height: 44px;
+  color: var(--citrusStylesSE-color--10);
+}
+.citrusStylesSE__hero--subTitle{
+  margin: 0px;
+  padding: 0px;    
+  font-family: 'PetcoCircular-Regular';
+  font-size: 19px;
+  line-height: 20px;
+  color: var(--citrusStylesSE-color--10);
+}
+.citrusStylesSE-card__title{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PetcoCircular-Bold';
+  color: var(--citrusStylesSE-color-00);
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: 700;
+}
+.citrusStylesSE-card__subTitle{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PetcoCircular-Regular';
+  color: var(--citrusStylesSE-color-00);
+  font-size: 16px;
+  line-height: normal;
+}
+ 
+/* button styles */
+.citrusStylesSE-button--group{
+  width: 100%;
+}
+.citrusStylesSE-button--group a {
+  margin: 0px 10px;
+}
+.citrusStylesSE-button--group a:first-child {
+  margin-left: 0px !important;
+}
+.citrusStylesSE-button.citrusStylesSE-button-common{
+  font-family: 'PetcoCircular-Bold',arial!important;
+  margin-top: 23px;
+  padding: 18px 51.7px 14px 51.65px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.citrusStylesSE-button.citrusStylesSE-button-navy{
+  background-color: var(--citrusStylesSE-primary-navy);
+  color: var(--citrusStylesSE-color--10);
+}
+.citrusStylesSE-button.citrusStylesSE-button--light{
+  background-color: var(--citrusStylesSE-color--10);
+  color: var(--citrusStylesSE-primary-navy);
+}
+.citrusStylesSE-button.citrusStylesSE-button-common:hover{
+  -webkit-filter: none!important;
+          filter: none!important;
+} 
+.citrusStylesSE-button--product {
+  font-family: 'PetcoCircular-Regular';
+  color: #333333;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 5px 0 10px 0;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 4em;
+}
+/* =========== common styles =========== */
+
+
+
+/* =========== Custom/Page styles =========== */
+  .citrusStylesSE-main{
+    width: 1440px;
+    max-width: 100%;
+  }
+
+  /* Hero section */
+  .citrusStylesSE-hero{
+    background-color: var(--citrusStylesSE-secondary-navy);
+    max-height: 366px;
+  }
+  .citrusStylesSE-hero__left img, .citrusStylesSE-hero__right img{
+    max-width: 100%;
+    max-height: 356px;
+    margin: 5px;
+  }
+  .citrusStylesSE-hero__middle{
+    padding: 2.05% 0;
+  }
+  .citrusStylesSE-hero__middle--logo img{
+    max-width: 229px;
+    margin-bottom: 35px;
+  }
+  .citrusStylesSE__hero--title{
+    margin-bottom: 15px;
+  }
+  /* Hero section e */
+
+  /* vCard section */
+  .citrusStylesSE-vCard .citrusStylesSE-section__title{
+    margin: 53px 0px 55px 0px;
+  }
+  .citrusStylesSE-vCard-wrapper{  
+    margin: 0px 15px 0px 15px;
+  }
+  .citrusStylesSE-vCard-wrapper .citrusStylesSE-vCard-cards{
+    max-width: 1118px;
+    margin: 0px auto;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card{
+    border-radius: 10px;
+    background-color: #CBEAFA;
+    border: 2px solid #00205B;
+    max-width: 547px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card img {
+    max-width: 100%;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card .citrusStylesSE-card__title{
+    margin-bottom: 20px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card__body{
+    padding: 0px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card__footer{
+    padding: 38px 24px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-button-common{
+    margin-top: 48px;
+  }
+  /* vCard section e */
+
+  /* Product section */
+  .citrusStylesSE-product{
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  .citrusStylesSE-product .citrusStylesSE__text--heading{
+    margin-bottom: 28px;
+  }
+  .citrusStylesSE-product--wrapper{
+    margin: 0px;
+    overflow: auto;
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-cards{
+    width: 1267px;
+    margin: 0px auto;
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-card {
+    max-width: 210px;
+    min-height: 244px;
+    /* padding: 0px 20px; */
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-card__body{
+    height: 161px;
+    padding: 0px;
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-card__footer{
+    padding: 0 21px;
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-card__footer a {
+    font-family: 'PetcoCircular-Bold',arial!important;
+    font-size: 16px;
+    color: var(--citrusStylesSE-primary-navy);
+    text-decoration: underline;
+  }
+  /* Product section e */
+
+
+/*========== responsive styles ===========*/
+@media screen and (max-width: 1300px) {
+  .citrusStylesSE-hero__middle--logo img{
+    max-width: 200px;
+  }
+  .citrusStylesSE__hero--title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .citrusStylesSE-hero{
+    max-height: 280px;
+  }
+  .citrusStylesSE-hero__left img, .citrusStylesSE-hero__right img {
+    max-width: 100%;
+    max-height: 270px;
+    margin: 5px;
+  }
+  .citrusStylesSE-hero__middle {
+    padding: 1.7% 0;
+  } 
+  .citrusStylesSE-hero__middle--logo img{
+    max-width: 161px;
+    margin-bottom: 20px;
+  }
+  .citrusStylesSE__hero--title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .citrusStylesSE-hero .citrusStylesSE-button-common {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .citrusStylesSE-hero{
+    max-height: 230px;
+  }
+  .citrusStylesSE-hero__left img, .citrusStylesSE-hero__right img{
+    max-height: 220px;
+  }  
+  .citrusStylesSE-hero__middle--logo img{
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+  .citrusStylesSE__hero--title {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+  .citrusStylesSE__hero--subTitle{
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .citrusStylesSE-hero .citrusStylesSE-button-common {
+    margin-top: 15px;
+    padding: 13px 41.7px 9px 41.65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* common styles */
+  .citrusStylesSE-button.citrusStylesSE-button-common {
+    padding: 0;
+    background: none;
+    color: var(--citrusStylesSE-color--10);
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .d-hide {
+    display: block;
+  }
+  .m-hide{
+    display: none;
+  }
+  /* common styles e */
+
+  /* Hero max-767 */
+  .citrusStylesSE-hero {
+    background-color: transparent;
+    background-image: url(images/citrus-Sherpa-Hero-bg-mob-2x.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    min-height: 650px;
+  }
+  .citrusStylesSE-hero__left, .citrusStylesSE-hero__right{
+    display: none;
+  }
+  .citrusStylesSE-hero__middle {
+    text-align: center;
+    padding: 6.5% 0px 0px 0px!important;
+  }
+  .citrusStylesSE__hero--title{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .citrusStylesSE__hero--subTitle {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  /* Hero max-767 e */
+
+  /* Vcard max-767 */
+  .citrusStylesSE-vCard-wrapper{ 
+    margin: 0px 0px 0px 15px; 
+    overflow: auto;
+  }
+  .citrusStylesSE-vCard-wrapper .citrusStylesSE-vCard-cards{
+    width: 760px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card{
+    min-width: 294px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-section__title{
+    margin: 29px 0px 31px 0px;
+  }
+  .citrusStylesSE-grid__cell--gap-15 {
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-button-common{
+    margin-top: 9px;
+    padding: 20px 43.57px 15px 43px;
+    color: var(--citrusStylesSE-primary-navy);
+  }
+  /* Vcard max-767 e */
+
+  /* Product max-767 */
+  .citrusStylesSE-product {
+    margin-top: 23px;
+  }
+  .citrusStylesSE-product--wrapper {
+    margin: 0 0 0 18px;
+  }
+  .citrusStylesSE-product .citrusStylesSE__text--heading {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Product max-767 e */    
+}
+
+@media screen and (min-width: 500px) {
+  /* common styles */
+  .sm-hide{
+    display: block;
+  }
+  .md-hide{
+    display: none;
+  }
+  /* common styles e*/
+}
+
+@media screen and (max-width: 500px) {
+  /* common styles */
+  .sm-hide{
+    display: none;
+  }
+  .md-hide{
+    display: block;
+  }
+  /* common styles e*/
+
+  /* Hero styles */
+  .citrusStylesSE-hero {
+    background-image: url(images/citrus-Sherpa-Hero-bg-mob-1.5x.png);
+    min-height: 520px;
+  }
+  /* Hero styles */
+
+  /* Vcard styles */
+  .citrusStylesSE-vCard-wrapper .citrusStylesSE-vCard-cards{
+    width: 607px;
+    min-height: 404px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card__footer {
+    padding: 27px 23px 20px 10px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-card .citrusStylesSE-card__title {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .citrusStylesSE-hero {
+    background-image: url(images/citrus-Sherpa-Hero-bg-mob-1x.png);
+    min-height: 403px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .citrusStylesSE__hero--subTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+/*========== responsive styles  e ===========*/
