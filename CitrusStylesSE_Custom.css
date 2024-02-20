@@ -40,9 +40,12 @@
           column-gap: 15px;
 }
 /* text styles */
-.citrusStylesSE__text--heading{
+.citrusStylesSE-main h1{
   margin: 0px;
-  padding: 0px;
+  padding: 0px;  
+}
+.citrusStylesSE__text--heading{
+
   font-family: 'PetcoCircular-Bold';
   color: var(--citrusStylesSE-color-00);
   font-weight: 700;
@@ -116,7 +119,13 @@
   -webkit-filter: none!important;
           filter: none!important;
 } 
-.citrusStylesSE-button--product {
+.citrusStylesSE-porduct--button {
+  font-family: 'PetcoCircular-Bold',arial!important;
+  font-size: 16px;
+  color: var(--citrusStylesSE-primary-navy);
+  text-decoration: underline;
+}
+.citrusStylesSE-porduct--title {
   font-family: 'PetcoCircular-Regular';
   color: #333333;
   font-size: 13px;
@@ -225,12 +234,6 @@
   }
   .citrusStylesSE-product--wrapper .citrusStylesSE-card__footer{
     padding: 0 21px;
-  }
-  .citrusStylesSE-product--wrapper .citrusStylesSE-card__footer a {
-    font-family: 'PetcoCircular-Bold',arial!important;
-    font-size: 16px;
-    color: var(--citrusStylesSE-primary-navy);
-    text-decoration: underline;
   }
   /* Product section e */
 
