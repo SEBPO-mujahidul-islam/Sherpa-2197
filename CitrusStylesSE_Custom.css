@@ -146,11 +146,16 @@
 
 
 /* =========== Custom/Page styles =========== */
+  .active_br1{
+    display: none;
+  }
   .citrusStylesSE-main{
     width: 1440px;
     max-width: 100%;
   }
-
+  .citrusStylesSE-main *{
+    box-sizing: border-box;
+  }
   /* Hero section */
   .citrusStylesSE-hero{
     background-color: var(--citrusStylesSE-secondary-navy);
@@ -181,14 +186,20 @@
     margin: 0px 15px 0px 15px;
   }
   .citrusStylesSE-vCard-wrapper .citrusStylesSE-vCard-cards{
-    max-width: 1102px;
+    max-width: 1118px;
     margin: 0px auto;
   }
   .citrusStylesSE-vCard .citrusStylesSE-card{
     border-radius: 10px;
     background-color: #CBEAFA;
     border: 2px solid #00205B;
-    max-width: 547px;
+    max-width: 551px;    
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-grid--no-gutter > .citrusStylesSE-grid__cell:first-child{
+    padding-right: 8px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-grid--no-gutter > .citrusStylesSE-grid__cell:nth-child(2){
+    padding-left: 8px;
   }
   .citrusStylesSE-vCard .citrusStylesSE-card img {
     max-width: 100%;
@@ -199,8 +210,9 @@
   .citrusStylesSE-vCard .citrusStylesSE-card__body{
     padding: 0px;
   }
-  .citrusStylesSE-vCard .citrusStylesSE-card__footer{
-    padding: 38px 24px;
+  .citrusStylesSE-vCard .citrusStylesSE-card__footer {
+    min-height: 146px;
+    padding: 38px 24px 0px 24px;
   }
   .citrusStylesSE-vCard .citrusStylesSE-button-common{
     margin-top: 48px;
@@ -217,7 +229,7 @@
   }
   .citrusStylesSE-product--wrapper{
     margin: 0px;
-    overflow: auto;
+    overflow-x: auto;
   }
   .citrusStylesSE-product--wrapper .citrusStylesSE-cards{
     width: 1267px;
@@ -226,17 +238,31 @@
   .citrusStylesSE-product--wrapper .citrusStylesSE-card {
     max-width: 210px;
     min-height: 244px;
-    /* padding: 0px 20px; */
   }
   .citrusStylesSE-product--wrapper .citrusStylesSE-card__body{
     height: 161px;
     padding: 0px;
+  }
+  .citrusStylesSE-product--wrapper .citrusStylesSE-card__body img{
+    max-width: 100%;
   }
   .citrusStylesSE-product--wrapper .citrusStylesSE-card__footer{
     padding: 0 21px;
   }
   /* Product section e */
 
+  /* Hide all scrollbar */
+  #citrusStylesSEvCard::-webkit-scrollbar, 
+  #citrusStylesSEproducts::-webkit-scrollbar {
+    display: none;
+  }  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #citrusStylesSEvCard, #citrusStylesSEproducts {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
 
 /*========== responsive styles ===========*/
 @media screen and (max-width: 1300px) {
@@ -272,6 +298,12 @@
   }
   .citrusStylesSE-hero .citrusStylesSE-button-common {
     margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .active_br1{
+    display: block;
   }
 }
 
@@ -359,10 +391,11 @@
   .citrusStylesSE-vCard .citrusStylesSE-section__title{
     margin: 29px 0px 31px 0px;
   }
-  .citrusStylesSE-grid__cell--gap-15 {
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
+  .citrusStylesSE-vCard .citrusStylesSE-grid--no-gutter > .citrusStylesSE-grid__cell:first-child{
+    padding-right: 4px;
+  }
+  .citrusStylesSE-vCard .citrusStylesSE-grid--no-gutter > .citrusStylesSE-grid__cell:nth-child(2){
+    padding-left: 4px;
   }
   .citrusStylesSE-vCard .citrusStylesSE-button-common{
     margin-top: 9px;
